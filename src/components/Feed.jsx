@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from "react";
-
+import api from '../utils/api'
 import { Context } from "../context/contextApi";
 import LeftNav from "./LeftNav";
 import VideoCard from "./VideoCard";
